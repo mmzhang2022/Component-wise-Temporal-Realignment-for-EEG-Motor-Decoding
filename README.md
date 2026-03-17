@@ -1,5 +1,7 @@
 # Component-wise temporal realignment mitigates latency variability for enhanced EEG motor decoding
 
+### ⚠️ Notice: Code and dataset are currently under preparation.
+
 **Official implementation and dataset** for the paper:  
 **"Component-wise temporal realignment mitigates latency variability for enhanced EEG motor decoding"**.
 
