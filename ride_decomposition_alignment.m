@@ -2,13 +2,13 @@
 %  Author: Chen et al.
 %
 %  Description:
-%  This script performs EEG component decomposition using the
-%  Residue Iteration Decomposition (RIDE) method to separate
-%  stimulus-locked (S), central/movement (C/M), and response-locked (R)
-%  components from EEG signals.
+%    This script performs EEG component decomposition using the
+%    Residue Iteration Decomposition (RIDE) method to separate
+%    stimulus-locked (S), central/movement (C/M), and response-locked (R)
+%    components from EEG signals.
 %
-%  Both original (unaligned) and latency-corrected single-trial
-%  components are extracted.
+%    Both original (unaligned) and latency-corrected single-trial
+%    components are extracted.
 %
 %  Input:
 %    data : Preprocessed EEG data matrix (time × channels × trials)
@@ -22,10 +22,13 @@
 %    ME_EEG_R_aligned   : latency-corrected response component
 %
 %  Reference:
-%  Ouyang, G., Sommer, W. & Zhou, C. A toolbox for residue iteration
-%  decomposition (RIDE)—A method for the decomposition, reconstruction,
-%  and single trial analysis of event-related potentials.
-%  Journal of Neuroscience Methods 250, 7–21 (2015).
+%	 RIDE method (residue iteration decomposition) as described by Ouyang et al., 2015.
+%	 See details at https://doi.org/10.1016/j.jneumeth.2014.10.009
+%
+%	 Ouyang, G., Sommer, W. & Zhou, C. A toolbox for residue iteration
+%	 decomposition (RIDE)—A method for the decomposition, reconstruction,
+%	 and single trial analysis of event-related potentials.
+%	 Journal of Neuroscience Methods 250, 7–21 (2015).
 % ===============================================================
 
 
